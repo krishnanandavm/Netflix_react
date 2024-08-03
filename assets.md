@@ -25,10 +25,12 @@ HorrorMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HER
 
 ActionMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=28',
 
-RomanceMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=10749',
+RomanceMovies: 'https://api.themoviedb.org/3/discover/movie?api_key=$4fc2ec91ac1a0f663f2b81ffc8ec53d8&with_genres=10749',
 
 Documentaries: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HERE}&with_genres=99',
 
 ////////////////////////////////////////////////////////////////////API KEY////////////////////////////////////////////////////////////////////////////
 
- API_KEY = "YOUR API KEY"
+ API_KEY = "d4a37359ac309536f77c0e08e9b83610"
+
+ http://api.themoviedb.org/3/movie/157336/videos?api_key=d4a37359ac309536f77c0e08e9b83610&language=en-US
