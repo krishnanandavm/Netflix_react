@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -6,17 +6,50 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Ensure elements are vertically centered */
     background-color: transparent;
-    
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
 }
-.logo{
+
+.logo {
     position: fixed;
     left: 20px;
     width: 80px;
+    max-width: 100%; /* Ensure the logo scales down on smaller screens */
 }
 
-.avtar{
+.avtar {
     position: fixed;
     right: 20px;
     width: 30px;
+    max-width: 100%; /* Ensure the avatar scales down on smaller screens */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px;
+    }
+    .logo {
+        width: 60px;
+        left: 15px;
+    }
+    .avtar {
+        width: 25px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+    .logo {
+        width: 50px;
+        left: 10px;
+    }
+    .avtar {
+        width: 20px;
+        right: 10px;
+    }
 }
